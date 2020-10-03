@@ -1,331 +1,755 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <style type="text/css">
-    .foot-logo{
-    color:#ff4800;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-    .dropdown-content{
-        background: black;
-        color: white;
-        padding: 10px;
-    }
-    </style>
-    
-    <title>Donate For A Better India</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- ElegantFonts CSS -->
-    <link rel="stylesheet" href="css/elegant-fonts.css">
-    <!-- themify-icons CSS -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="site-header">
-        <div class="top-header-bar">
-            <div class="container">
-                <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
-                    <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
-                        <div class="header-bar-email">
-                            MAIL: <a href="#">namangoyal983@gmail.com</a>
-                        </div><!-- .header-bar-email -->
-                        <div class="header-bar-text">
-                            <p>PHONE: <span>+91 950*****11</span></p>
-                        </div><!-- .header-bar-text -->
-                    </div><!-- .col -->
-                    <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
-                        <div class="dropdown">
-                            <div class="button"
-                            <a><span></span></a>
-                             <div class="dropdown-content">
-                              <a  href='https://www.payumoney.com/paybypayumoney/#/9019FC6CDD96CA5E75B0FF4F683DEA8B'><b>Donate Now</b></a>
-                              
-                            </div>
-                           <!--  <a  href='https://www.payumoney.com/paybypayumoney/#/9019FC6CDD96CA5E75B0FF4F683DEA8B'>Donate Now</a> -->
-                        </div><!-- .donate-btn -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .top-header-bar -->
-        <div class="nav-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="site-branding d-flex align-items-center">
-                           <a class="d-block" href="index.php" rel="home"><h1>Hack-O-Charity</h1></a>
-                        </div><!-- .site-branding -->
-                        <nav class="site-navigation d-flex justify-content-end align-items-center">
-                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                <li class="current-menu-item"><a href="index.php">Home</a></li>
-                                <li><a href="about.php">About us</a></li>
-                               <!--  <li><a href="causes.php">Causes</a></li> -->
-                                <li><a href="portfolio.php">Gallery</a></li>
-                                 <!-- <li><a href="contact.php">Contact Us</a></li> -->
-                                <li><a href="login.php">Login/SignUp</a></li>
-                            </ul>
-                        </nav><!-- .site-navigation -->
-                        <div class="hamburger-menu d-lg-none">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div><!-- .hamburger-menu -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .nav-bar -->
-    </header><!-- .site-header -->
-    <div class="swiper-container hero-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide hero-content-wrap">
-                <img src="images/adorable.jpg" alt="">
-                <div class="hero-content-overlay position-absolute w-100 h-100">
-                    <div class="container h-100">
-                        <div class="row h-100">
-                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                                <header class="entry-header">
-                                    <h1>Donate</h1>
-                                    <h4>For a better India</h4>
-                                </header><!-- .entry-header -->
-                                <div class="entry-content mt-4">
-                                    <p><h3>Volunteers do not necessarily have the time,they just have the heart.</h3></p>
-                                </div><!-- .entry-content -->
-                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                                    <a href="https://www.payumoney.com/paybypayumoney/#/9019FC6CDD96CA5E75B0FF4F683DEA8B" class="btn gradient-bg mr-2">Donate Now</a>
-                                    <!-- <a href="#" class="btn orange-border">Read More</a> -->
-                                </footer><!-- .entry-footer -->
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .container -->
-                </div><!-- .hero-content-overlay -->
-            </div><!-- .hero-content-wrap -->
-            <div class="swiper-slide hero-content-wrap">
-                <img src="https://cdn.dotablast.com/wp-content/uploads/2016/11/Dota-2-charity-tournament-770x470.jpg" alt="">
-                <div class="hero-content-overlay position-absolute w-100 h-100">
-                    <div class="container h-100">
-                        <div class="row h-100">
-                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                                <header class="entry-header">
-                                    <h1>Join Hands</h1>
-                                    <h4>to put every child in school</h4>
-                                </header><!-- .entry-header -->
-                                <div class="entry-content mt-4">
-                                    <p><h3>The smallest act of kindness is worth more than the grandest intention.</h3></p>
-                                </div><!-- .entry-content -->
-                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                                    <a href="https://www.payumoney.com/paybypayumoney/#/9019FC6CDD96CA5E75B0FF4F683DEA8B" class="btn gradient-bg mr-2">Donate Now</a>
-                                   
-                                </footer><!-- .entry-footer -->
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .container -->
-                </div><!-- .hero-content-overlay -->
-            </div><!-- .hero-content-wrap -->
-            <div class="swiper-slide hero-content-wrap">
-                <img src="images/img3.jpg" alt="">
-                <div class="hero-content-overlay position-absolute w-100 h-100">
-                    <div class="container h-100">
-                        <div class="row h-100">
-                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                                <header class="entry-header">
-                                    <h1>No one</h1>
-                                    <h4>has ever become poor from giving.</h4>
-                                </header><!-- .entry-header -->
-                                <div class="entry-content mt-4">
-                                    <p><h3>Let us remember: One book, one pen, one child, and one teacher can change the world.</h3></p>
-                                </div><!-- .entry-content -->
-                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                                    <a href="https://www.payumoney.com/paybypayumoney/#/9019FC6CDD96CA5E75B0FF4F683DEA8B" class="btn gradient-bg mr-2">Donate Now</a>
-                                    
-                                </footer><!-- .entry-footer -->
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .container -->
-                </div><!-- .hero-content-overlay -->
-            </div><!-- .hero-content-wrap -->
-        </div><!-- .swiper-wrapper -->
-        <div class="pagination-wrap position-absolute w-100">
-            <div class="container">
-                <div class="swiper-pagination"></div>
-            </div><!-- .container -->
-        </div><!-- .pagination-wrap -->
-        <!-- Add Arrows -->
-        <div class="swiper-button-next flex justify-content-center align-items-center">
-            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
-        </div>
-        <div class="swiper-button-prev flex justify-content-center align-items-center">
-            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
-        </div>
-    </div><!-- .hero-slider -->
-    <div class="home-page-icon-boxes">
-        <h2 class="foc">Our Main Areas Of Focus</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                    <div class="icon-box active">
-                        <figure class="d-flex justify-content-center">
-                            <img src="images/hands-gray.png" alt="">
-                            <img src="images/hands-white.png" alt="">
-                        </figure>
-                        <header class="entry-header">
-                            <h3 class="entry-title">EDUCATION</h3>
-                        </header>
-                        <div class="entry-content">
-                            <p>Education is the most powerful weapon which you can use to change the world. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <figure class="d-flex justify-content-center">
-                            <img src="images/donation-gray.png" alt="">
-                            <img src="images/donation-white.png" alt="">
-                        </figure>
-                        <header class="entry-header">
-                            <h3 class="entry-title">MEDICAL HELP</h3>
-                        </header>
-                        <div class="entry-content">
-                            <p>Saving someone's life is more important than money.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <figure class="d-flex justify-content-center">
-                            <img src="images/charity-gray.png" alt="">
-                            <img src="images/charity-white.png" alt="">
-                        </figure>
-                        <header class="entry-header">
-                            <h3 class="entry-title">HELP AND SUPPORT</h3>
-                        </header>
-                        <div class="entry-content">
-                            <p>The best way to not feel hopeless is to get up and do something. </p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .home-page-icon-boxes -->
-    <div class="home-page-welcome">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
-                    <div class="welcome-content">
-                        <header class="entry-header">
-                            <h2 class="entry-title">Welcome to our Charity</h2>
-                        </header><!-- .entry-header -->
-                        <div class="entry-content mt-5">
-                            <h5><p>“While we do our good works let us not forget that the real solution lies in a world in which charity will have become unnecessary.The simplest acts of kindness are by far more powerful then a thousand heads bowing in prayer.”</p>
-                            <p>Smiling in your brother’s face is an act of charity. 
-So is enjoining good and forbidding evil, 
-giving directions to the lost traveller, 
-aiding the blind and 
-removing obstacles from the path.</p></h5>
-                        </div><!-- .entry-content -->
-                        <div class="entry-footer mt-5">
-                            
-                        </div><!-- .entry-footer -->
-                    </div><!-- .welcome-content -->
-                </div><!-- .col -->
-                <div class="col-12 col-lg-6 mt-4 order-1 order-lg-2">
-                    <img src="images/welcome.jpg" alt="welcome">
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .home-page-icon-boxes -->
-    
-    <footer class="site-footer">
-        <div class="footer-widgets">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="foot-about">
-                            <a class="foot-logo" href="#"><h2>Hack-O-Charity</h2></a>
-                            <p align="justify">The best way to not feel hopeless is to get up and do something. Don’t wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope.</p>
-                            <ul class="d-flex flex-wrap align-items-center">
-                                
-                                <li><a href="https://www.facebook.com/naman.goyal.359"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/NamanGo28464952"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/naman-goyal-44305a17a/"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div><!-- .foot-about -->
-                    </div><!-- .col -->
-                    <div class="ert">
-                        <h2>Useful Links</h2>
-                        <ul >
-                            
-                            <li><a href="login.php">Become  a Volunteer</a></li>
-                            <li>Donate</a></li>
-                            
-                            <li><a href="#">Causes</a></li>
-                            
-                            <!-- <li><a href="#">News</a></li> -->
-                        </ul>
-                    </div><!-- .col -->
-                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                       <!--  <div class="foot-latest-news">
-                            <h2>Latest News</h2>
-                            <ul>
-                                <li>
-                                    <h3><a href="#">A new cause to help</a></h3>
-                                    <div class="posted-date">MArch 12, 2018</div>
-                                </li>
-                                <li>
-                                    <h3><a href="#">We love to help people</a></h3>
-                                    <div class="posted-date">MArch 12, 2018</div>
-                                </li>
-                                <li>
-                                    <h3><a href="#">The new ideas for helping</a></h3>
-                                    <div class="posted-date">MArch 12, 2018</div>
-                                </li>
-                            </ul>
-                        </div><!- .foot-latest-news -->
-                    </div><!-- .col -->
-                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                        <div class="foot-contact">
-                            <h2>Contact</h2>
-                            <ul>
-                                <li><i class="fa fa-phone"></i><span>+91 9646947900</span></li>
-                            <li><i class="fa fa-envelope"></i><span>namangoyal983@gmail.com</span></li>
-                            <li><i class="fa fa-map-marker"></i><span>Thapar University, Patiala</span></li>
-                            </ul>
-                        </div><!-- .foot-contact -->
-                        <div class="subscribe-form">
-                            <form class="d-flex flex-wrap align-items-center">
-                                <!-- <input type="email" placeholder="Your email">
-                                <input type="submit" value="send"> -->
-                            </form><!-- .flex -->
-                        </div><!-- .search-widget -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .footer-widgets -->
-        <div class="footer-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
 
-                    </div><!-- .col-12 -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .footer-bar -->
-    </footer><!-- .site-footer -->
-    <script type='text/javascript' src='js/jquery.js'></script>
-    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
-    <script type='text/javascript' src='js/swiper.min.js'></script>
-    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
-    <script type='text/javascript' src='js/circle-progress.min.js'></script>
-    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
-    <script type='text/javascript' src='js/jquery.barfiller.js'></script>
-    <script type='text/javascript' src='js/custom.js'></script>
-</body>
-</html>
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-- start editing from here --*/
+a {
+  text-decoration: none;
+}
+
+.txt-rt {
+  text-align: right;
+}
+
+/* text align right */
+.txt-lt {
+  text-align: left;
+}
+
+/* text align left */
+.txt-center {
+  text-align: center;
+}
+
+/* text align center */
+.float-rt {
+  float: right;
+}
+
+/* float right */
+.float-lt {
+  float: left;
+}
+
+/* float left */
+.clear {
+  clear: both;
+}
+
+/* clear float */
+.pos-relative {
+  position: relative;
+}
+
+/* Position Relative */
+.pos-absolute {
+  position: absolute;
+}
+
+/* Position Absolute */
+.vertical-base {
+  vertical-align: baseline;
+}
+
+/* vertical align baseline */
+.vertical-top {
+  vertical-align: top;
+}
+
+/* vertical align top */
+nav.vertical ul li {
+  display: block;
+}
+
+/* vertical menu */
+nav.horizontal ul li {
+  display: inline-block;
+}
+
+/* horizontal menu */
+img {
+  max-width: 100%;
+}
+
+/*-- end reset --*/
+body {
+  background: #76b852;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #76b852, #8DC26F);
+  background: -moz-linear-gradient(to top, #76b852, #8DC26F);
+  background: -o-linear-gradient(to top, #76b852, #8DC26F);
+  background: linear-gradient(to top, #76b852, #8DC26F);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*-- main --*/
+.main-w3layouts {
+  padding: 3em 0 1em;
+}
+
+.main-agileinfo {
+  width: 35%;
+  margin: 3em auto;
+  background: rgba(0, 0, 0, 0.18);
+  background-size: cover;
+}
+
+.agileits-top {
+  padding: 3em;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 100;
+  width: 94.5%;
+  display: block;
+  border: none;
+  padding: 0.8em;
+  border: solid 1px rgba(255, 255, 255, 0.37);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background-position: -800px 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+input.email, input.text.w3lpass {
+  margin: 2em 0;
+}
+
+.text:focus, .text:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+.text:focus::-webkit-input-placeholder, .text:valid::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .9em;
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -o-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+  visibility: visible !important;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 100;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+input[type="submit"] {
+  font-size: .9em;
+  color: #fff;
+  background: #76b852;
+  outline: none;
+  border: 1px solid #76b852;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 2em 0;
+  letter-spacing: 4px;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+  background: #8DC26F;
+}
+
+.agileits-top p {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.agileits-top p a {
+  color: #fff;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  transition: .5s all;
+  font-weight: 400;
+}
+
+.agileits-top p a:hover {
+  color: #76b852;
+}
+
+/*-- //main --*/
+/*-- checkbox --*/
+.wthree-text label {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  position: relative;
+}
+
+input.checkbox {
+  background: #8DC26F;
+  cursor: pointer;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+input.checkbox:before {
+  content: "";
+  position: absolute;
+  width: 1.2em;
+  height: 1.2em;
+  background: inherit;
+  cursor: pointer;
+}
+
+input.checkbox:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 1;
+  width: 1.2em;
+  height: 1.2em;
+  border: 1px solid #fff;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+input.checkbox:checked:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: #fff;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.anim input.checkbox:checked:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: transparent;
+  border-right-color: transparent;
+  animation: .4s rippling .4s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rippling {
+  50% {
+    border-left-color: #fff;
+  }
+
+  100% {
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+  }
+}
+
+/*-- //checkbox --*/
+/*-- copyright --*/
+.colorlibcopy-agile {
+  margin: 2em 0 1em;
+  text-align: center;
+}
+
+.colorlibcopy-agile p {
+  font-size: .9em;
+  color: #fff;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.colorlibcopy-agile p a {
+  color: #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.colorlibcopy-agile p a:hover {
+  color: #000;
+}
+
+/*-- //copyright --*/
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.colorlib-bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.colorlib-bubbles li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  bottom: -160px;
+  -webkit-animation: square 20s infinite;
+  -moz-animation: square 250s infinite;
+  -o-animation: square 20s infinite;
+  -ms-animation: square 20s infinite;
+  animation: square 20s infinite;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.colorlib-bubbles li:nth-child(1) {
+  left: 10%;
+}
+
+.colorlib-bubbles li:nth-child(2) {
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 17s;
+  -moz-animation-duration: 17s;
+  -o-animation-duration: 17s;
+  animation-duration: 17s;
+}
+
+.colorlib-bubbles li:nth-child(3) {
+  left: 25%;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.colorlib-bubbles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation-duration: 22s;
+  -moz-animation-duration: 22s;
+  -o-animation-duration: 22s;
+  -ms-animation-duration: 22s;
+  animation-duration: 22s;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.colorlib-bubbles li:nth-child(5) {
+  left: 70%;
+}
+
+.colorlib-bubbles li:nth-child(6) {
+  left: 80%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.colorlib-bubbles li:nth-child(7) {
+  left: 32%;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  -o-animation-delay: 7s;
+  -ms-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
+.colorlib-bubbles li:nth-child(8) {
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-delay: 15s;
+  -moz-animation-delay: 15s;
+  animation-delay: 15s;
+  -webkit-animation-duration: 40s;
+  -moz-animation-duration: 40s;
+  animation-duration: 40s;
+}
+
+.colorlib-bubbles li:nth-child(9) {
+  left: 25%;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 40s;
+  animation-duration: 40s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.colorlib-bubbles li:nth-child(10) {
+  left: 90%;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s;
+}
+
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+    -moz-transform: translateY(-700px) rotate(600deg);
+    -o-transform: translateY(-700px) rotate(600deg);
+    -ms-transform: translateY(-700px) rotate(600deg);
+    transform: translateY(-700px) rotate(600deg);
+  }
+}
+
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+    -moz-transform: translateY(-700px) rotate(600deg);
+    -o-transform: translateY(-700px) rotate(600deg);
+    -ms-transform: translateY(-700px) rotate(600deg);
+    transform: translateY(-700px) rotate(600deg);
+  }
+}
+
+/*-- responsive-design --*/
+@media(max-width:1440px) {
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 94%;
+  }
+}
+
+@media(max-width:1366px) {
+  h1 {
+    font-size: 2.6em;
+  }
+
+  .agileits-top {
+    padding: 2.5em;
+  }
+
+  .main-agileinfo {
+    margin: 2em auto;
+  }
+
+  .main-agileinfo {
+    width: 36%;
+  }
+}
+
+@media(max-width:1280px) {
+  .main-agileinfo {
+    width: 40%;
+  }
+}
+
+@media(max-width:1080px) {
+  .main-agileinfo {
+    width: 46%;
+  }
+}
+
+@media(max-width:1024px) {
+  .main-agileinfo {
+    width: 49%;
+  }
+}
+
+@media(max-width:991px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  .main-w3layouts {
+    padding: 2em 0 1em;
+  }
+}
+
+@media(max-width:900px) {
+  .main-agileinfo {
+    width: 58%;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 93%;
+  }
+}
+
+@media(max-width:800px) {
+  h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media(max-width:736px) {
+  .main-agileinfo {
+    width: 62%;
+  }
+}
+
+@media(max-width:667px) {
+  .main-agileinfo {
+    width: 67%;
+  }
+}
+
+@media(max-width:600px) {
+  .agileits-top {
+    padding: 2.2em;
+  }
+
+  input.email, input.text.w3lpass {
+    margin: 1.5em 0;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+  }
+}
+
+@media(max-width:568px) {
+  .main-agileinfo {
+    width: 75%;
+  }
+
+  .colorlibcopy-agile p {
+    padding: 0 2em;
+  }
+}
+
+@media(max-width:480px) {
+  h1 {
+    font-size: 1.8em;
+    letter-spacing: 3px;
+  }
+
+  .agileits-top {
+    padding: 1.8em;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 91%;
+  }
+
+  .agileits-top p {
+    font-size: 0.9em;
+  }
+}
+
+@media(max-width:414px) {
+  h1 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+  }
+
+  .main-agileinfo {
+    width: 85%;
+    margin: 1.5em auto;
+  }
+
+  .text:focus, .text:valid {
+    background-position: 0 0px;
+  }
+
+  .wthree-text ul li, .wthree-text ul li:nth-child(2) {
+    display: block;
+    float: none;
+  }
+
+  .wthree-text ul li:nth-child(2) {
+    margin-top: 1.5em;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0 1.5em;
+    letter-spacing: 3px;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0 1.5em;
+  }
+
+  .colorlibcopy-agile {
+    margin: 1em 0 1em;
+  }
+}
+
+@media(max-width:384px) {
+  .main-agileinfo {
+    width: 88%;
+  }
+
+  .colorlibcopy-agile p {
+    padding: 0 1em;
+  }
+}
+
+@media(max-width:375px) {
+  .agileits-top p {
+    letter-spacing: 0px;
+  }
+}
+
+@media(max-width:320px) {
+  .main-w3layouts {
+    padding: 1.5em 0 0;
+  }
+
+  .agileits-top {
+    padding: 1.2em;
+  }
+
+  .colorlibcopy-agile {
+    margin: 0 0 1em;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 89.5%;
+    font-size: 0.85em;
+  }
+
+  h1 {
+    font-size: 1.7em;
+    letter-spacing: 0px;
+  }
+
+  .main-agileinfo {
+    width: 92%;
+    margin: 1em auto;
+  }
+
+  .text:focus, .text:valid {
+    background-position: 0 0px;
+  }
+
+  input[type="submit"] {
+    margin: 1.5em 0;
+    padding: 0.8em;
+    font-size: .85em;
+  }
+
+  .colorlibcopy-agile p {
+    font-size: .85em;
+  }
+
+  .wthree-text label {
+    font-size: 0.85em;
+  }
+
+  .main-w3layouts {
+    padding: 1em 0 0;
+  }
