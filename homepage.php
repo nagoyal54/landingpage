@@ -259,6 +259,10 @@ removing obstacles from the path.</p></h5>
                             </ul>
                         </div><!-- .foot-about -->
                     </div><!-- .col -->
+                    <div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
                     <div class="ert">
                         <h2>Useful Links</h2>
                         <ul >
